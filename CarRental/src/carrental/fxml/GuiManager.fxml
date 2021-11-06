@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="151.0" prefWidth="179.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carrental.GuiManagerController">
+   <children>
+      <Button fx:id="btnSignup" mnemonicParsing="false" onAction="#openSignUpScreen" prefHeight="25.0" prefWidth="179.0" text="Sign Up" />
+      <Button fx:id="btnEmpView" mnemonicParsing="false" onAction="#openEmployeeScreen" prefHeight="25.0" prefWidth="179.0" text="Employee" />
+      <Button fx:id="btnFinanceView" mnemonicParsing="false" onAction="#openFinanceScreen" prefHeight="25.0" prefWidth="179.0" text="Finance" />
+      <Button fx:id="btnAddView" mnemonicParsing="false" onAction="#openAddScreen" prefHeight="25.0" prefWidth="179.0" text="Add" />
+      <Button fx:id="btnUserView" mnemonicParsing="false" onAction="#openUserScreen" prefHeight="25.0" prefWidth="179.0" text="User" />
+      <Button fx:id="btnStart" mnemonicParsing="false" onAction="#openStartScreen" prefHeight="25.0" prefWidth="179.0" text="Start" />
+   </children>
+</VBox>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="carrental.fxml.EmpViewController">
+   <children>
+      <Label layoutX="53.0" layoutY="30.0" text="Office location" />
+      <MenuButton layoutX="142.0" layoutY="26.0" mnemonicParsing="false" text="Street, City, State">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <TextField layoutX="45.0" layoutY="61.0" promptText="Search" />
+      <MenuButton layoutX="204.0" layoutY="61.0" mnemonicParsing="false" text="Brand">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <MenuButton layoutX="281.0" layoutY="61.0" mnemonicParsing="false" text="Body style">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <MenuButton layoutX="384.0" layoutY="61.0" mnemonicParsing="false" text="Drive type">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <Button layoutX="480.0" layoutY="61.0" mnemonicParsing="false" text="Search" />
+      <TableView layoutX="45.0" layoutY="103.0" prefHeight="245.0" prefWidth="510.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Brand" />
+          <TableColumn prefWidth="75.0" text="Year" />
+            <TableColumn prefWidth="75.0" text="Color" />
+            <TableColumn prefWidth="284.0" text="etc." />
+        </columns>
+      </TableView>
+      <Label layoutX="53.0" layoutY="359.0" text="Chosen car" />
+      <TextField layoutX="130.0" layoutY="355.0" prefHeight="25.0" prefWidth="87.0" />
+      <Button layoutX="229.0" layoutY="355.0" mnemonicParsing="false" text="Remove" />
+      <Button layoutX="300.0" layoutY="355.0" mnemonicParsing="false" text="Add" />
+   </children>
+</AnchorPane>
